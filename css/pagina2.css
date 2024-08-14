@@ -12,17 +12,7 @@
     font-size: 20px;
     font-family: 'Roboto';
     margin-right: 30px;
-}
-
-.button2{
-
-    background-color: rgb(90, 151, 90);
-    border-radius: 20px;
-    width: 199px;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Roboto';
-    margin-left: 15px;
+    font-weight: 700;
 }
 
 
@@ -39,6 +29,8 @@ button:hover{
 
 .image1 {
     display: flex;
+    max-width: 100%;
+    height: auto;
 }
 
 .main {
@@ -53,15 +45,17 @@ a{
 
 h1{
     font-size: 70px;
+    width: 600px;
     
 }
 
 p{
     font-size: 35px;
+    width: 600px;
     
 }
 
-.areaBotao {
-    display: inline-flex;
-    padding-inline: 10px;
+.buttons {
+    display: flex;
+    gap: 20px;
 }
